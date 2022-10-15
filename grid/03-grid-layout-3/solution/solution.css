@@ -17,6 +17,7 @@
 
 .header {
   background-color: #393f4d;
+
 }
 
 
@@ -89,7 +90,7 @@
 
 .footer p {
   font-size: 13px;
-  font-weight: normal;  
+  font-weight: normal;
 }
 
 /* SOLUTION */
@@ -131,7 +132,7 @@
 }
 
 .side-content, .photo {
-  display: grid; 
+  display: grid;
   align-items: center;
 }
 

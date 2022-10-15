@@ -8,6 +8,12 @@ body, html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 3fr 1fr;
+  gap: 10px;
+
 }
 
 .container div {
@@ -20,7 +26,7 @@ body, html {
 }
 
 .header {
-  background-color: #FFDE22;
+  background-color: #31302b;
   grid-column: 1 / 3;
 }
 
